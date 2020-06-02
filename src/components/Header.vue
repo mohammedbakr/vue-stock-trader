@@ -1,11 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <router-link class="navbar-brand" to="/">Stock Trader</router-link>
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
 
-    <div class="navbar-collapse">
+    <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <router-link tag="li" to="/portfolio" active-class="active" class="nav-item"><a class="nav-link">Portfolio</a></router-link>
         <router-link tag="li" to="/stocks" active-class="active" class="nav-item"><a class="nav-link">Stocks</a></router-link>
